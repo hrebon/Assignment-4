@@ -153,24 +153,7 @@
                 }
                 document.getElementById('economy-class').innerText = firstClassValue;
             }
-            // if(isIncrease == true){
-            //     firstClassValue = firstClassInput + 1;
-            // }
-            // if(isIncrease == false && firstClassInput >0){
-            //     firstClassValue = firstClassInput - 1;
-            // }
             document.getElementById(ticket +'-count').value = firstClassValue;
-            // document.getElementById('first-class-count').innerText = firstClassValue;
-            // document.getElementById('economy-class-count').innerText = firstClassValue;
-
-            // const firstClassTotal = 0;
-            // if(ticket == 'first-class'){
-            //     firstClassTotal = 150 * firstClassValue;
-            // }
-            // if(ticket == 'economy-class'){
-            //     firstClassTotal = 100 * firstClassValue;
-            // }
-            // document.getElementById(ticket +'-count').value = firstClassValue;
             calculateTotal();
         }
 
@@ -196,20 +179,6 @@
             const ticketCount = parseInt(ticketInput.value);
             return ticketCount;
         }
-
-        // const firstClassIncrease = document.getElementById('first-class-increase').addEventListener('click',function(){
-        //     const firstClassCount = document.getElementById('first-class-count');
-        //     const firstClassInput = parseInt(firstClassCount.value);
-        //     const firstClassValue = firstClassInput + 1;
-        //     document.getElementById('first-class-count').value = firstClassValue;
-        // })
-
-        // const firstClassDecrease = document.getElementById('first-class-decrease').addEventListener('click',function(){
-        //     const firstClassCount = document.getElementById('first-class-count');
-        //     const firstClassInput = parseInt(firstClassCount.value);
-        //     const firstClassValue = firstClassInput - 1;
-        //     document.getElementById('first-class-count').value = firstClassValue;
-        // })
     </script>
 
     <!--Thank You-->
